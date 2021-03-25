@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#search {
+position: absolute;
+height: 34px;
+top: 50%;
+left: 41%;
+margin: -100px 0 0 -150px;
+width: 500px;
+border: 2px solid #f0e9e9;
+outline: none;
+border-radius: 25px;
+font-size: 16px;
+background-color: rgba(255, 249, 249, 0.712);
+padding: 5px 8px 0 16px;
+
+
+
+}
+.googlesearch {
+position: absolute;
+top: 44%;
+left: 39%;
+background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.lucky {
+    position: absolute;
+    top: 44%;
+    left: 47%;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+
+    }
+    img {
+        position: absolute;
+        top: 20%;
+        left: 39%;
+        height: 92px;
+        max-height: 100%;
+        max-width: 100%;
+        width: auto;
+    }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#text {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  top:30%;
+  left: 53%;
+  position: absolute;
+  white-space: nowrap;  
+}
+#img_search {
+  position: absolute;
+  top: 37%;
+  left: 62%;
+  background-color: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      border-radius: 4px;
+      color: white;
+      font-size: 0px;
+      font-family: arial,sans-serif;
+      margin: 11px 4px;
+      padding: 0 16px;
+      line-height: 27px;
+      height: 24px;
+      width: 24px;
+      text-align: center;
+      cursor: pointer;
+      background: url('https://api.iconify.design/ant-design:search-outlined.svg') no-repeat center center / contain;
+}
+.googlesearch:hover {
+  background-color: rgb(236, 231, 231);
+}
+.lucky:hover {
+  background-color: rgb(236, 231, 231);
+}
+.ss {
+  position: absolute;
+  left: 250px;
+  border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 30%;
+    margin-top: -40px;
+}
+.adv {
+  position: absolute;
+  top: 50%;
+  left: 630px;
+}
+.advimg {
+  height: 30px;
+  position: absolute;
+  left: 1%;
+  top: 2%;
+}
